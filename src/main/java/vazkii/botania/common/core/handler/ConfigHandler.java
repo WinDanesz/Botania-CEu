@@ -602,7 +602,6 @@ public final class ConfigHandler {
 
 	public static void setConfigFolder(File configFolder) {
 		ConfigHandler.configFolder = configFolder;
-		loadHeiseiDreamImmuneEntities();
 	}
 
 	private static void loadItemSets() {
